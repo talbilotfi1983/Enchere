@@ -1,0 +1,38 @@
+
+abbr {
+	position: absolute;
+	color: red;
+}
+
+.dropdown1 {
+	border: 1px solid black;
+	background-color: white;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+}
+
+.dropdown1 li {
+	cursor: pointer;
+	list-style-type: none;
+	height: 50px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.dropdown1 li span {
+	font-weight: bold;
+}
+
+.dropdown1 li:hover {
+	background-color: lightsteelblue;
+}
+
+.dropdown1 ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
